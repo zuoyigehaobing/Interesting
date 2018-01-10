@@ -16,20 +16,22 @@
 
 - 自定义快捷键
 ###
-    
-    创建文件夹并进入：mcd + 文件名
 
-    压缩文件夹： zipf + 文件名
-    
-    进入Documents: doc
-    
     进入Downloads: dow
+    
+    进入Documents: doc
     
     打开portal：portal
     
     打开acorn：acorn
     
     打开github：github
+    
+    创建文件夹并进入：mcd + 文件名
+    
+    压缩文件夹： zipf + 文件名
+    
+    在Documents中寻找文件： where + 文件名
 
 
 
@@ -37,10 +39,9 @@
 
 - step1:参考的terminal appearance
 
-  <img src="https://github.com/zuoyigehaobing/Interesting/blob/master/pics/appreaance1.png" width="500">
-  <img src="https://github.com/zuoyigehaobing/Interesting/blob/master/pics/appearance2.png" width="200">
+  <img src="https://github.com/zuoyigehaobing/Interesting/blob/master/pics/appreaance1.png" width="480">    
+  <img src="https://github.com/zuoyigehaobing/Interesting/blob/master/pics/appearance2.png" width="190">
 
 
-- step2:复制所需行到 ～/.bash_profile，如：
-  
+- step2:复制 [bash_profile](https://github.com/zuoyigehaobing/Interesting/blob/master/terminal/bash_profile)中的内容到本地电脑的~/.bash_profile下
 
