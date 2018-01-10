@@ -24,7 +24,7 @@ export PS1="\u \[\033[46m\]\w\[\033[0m\] \t \[\033[32m\]\$(parse_git_branch)\[\0
 
 alias go-doc="cd ~/Documents"
 alias doc="go-doc"
-alias go-git="cd ~/Documents/Git"
+# alias go-git="cd ~/Documents/Git"
 alias dow="cd ~/Downloads"
 
 #
