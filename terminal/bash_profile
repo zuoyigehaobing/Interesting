@@ -1,0 +1,71 @@
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+export PATH
+
+
+# ================ JAN 09: ADD GIT BRANCHES IN PROMPT ===================
+
+parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+# ================ JAN 09: CHANGED SOME COLOR OR FILES ===================
+
+export CLICOLOR=1
+export LSCOLORS=xefxGxDxBxegedabagaced
+
+export PS1="\u \[\033[46m\]\w\[\033[0m\] \t \[\033[32m\]\$(parse_git_branch)\[\033[00m\]
+\[\033[41m\]==> \[\033[00m\]"
+
+
+# ================ JAN 09: ALIAS ADDED ===================
+
+alias go-doc="cd ~/Documents"
+alias doc="go-doc"
+alias go-git="cd ~/Documents/Git"
+alias dow="cd ~/Downloads"
+
+#
+# alias open-321="open ~/Documents/csc321"
+# alias go-321="cd ~/Documents/csc321"
+# alias atom-321="atom ~/Documents/csc321"
+#
+# alias open-320="open ~/Documents/csc320"
+# alias go-320="cd ~/Documents/csc320"
+# alias atom-320="atom ~/Documents/csc320"
+#
+# alias open-418="open ~/Documents/csc418"
+# alias go-418="cd ~/Documents/csc418"
+# alias atom-418="atom ~/Documents/csc418"
+#
+# alias open-309="open ~/Documents/mat309"
+# alias go-309="cd ~/Documents/mat309"
+# alias atom-309="atom ~/Documents/mat309"
+#
+# alias open-334="open ~/Documents/mat334"
+# alias go-334="cd ~/Documents/mat334"
+# alias atom-334="atom ~/Documents/mat334"
+#
+# alias open-102="open ~/Documents/eco102"
+# alias go-102="cd ~/Documents/eco102"
+# alias atom-102="atom ~/Documents/eco102"
+
+# make dir and cd inside
+mcd () { mkdir -p "$1" && cd "$1";}
+# zip a folder
+zipf () { zip -r "$1".zip "$1";}
+# find a file given file name
+where () { find ~/Documents -name "$1";}
+# go to portal
+portal () { open "https://portal.utoronto.ca";}
+# go to acron
+acorn () { open "https://acorn.utoronto.ca";}
+# course websites
+# web320 () { open "http://www.cs.toronto.edu/~kyros/courses/320/";}
+# web321 () { open "http://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/";}
+# web309 () { open "http://www.math.toronto.edu/rossman/MAT309.html";}
+# web418 () { open "http://www.dgp.toronto.edu/~karan/courses/418/index.html";}
+# go to github
+github () { open "https://github.com";}
