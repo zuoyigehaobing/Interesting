@@ -43,5 +43,5 @@
   <img src="https://github.com/zuoyigehaobing/Interesting/blob/master/pics/appearance2.png" width="190">
 
 
-- step2:复制 [bash_profile](https://github.com/zuoyigehaobing/Interesting/blob/master/terminal/bash_profile)中的内容到本地电脑的~/.bash_profile下
+- step2:复制 [bash_profile](https://github.com/zuoyigehaobing/Interesting/blob/master/terminal/bash_profile)中的内容到本地电脑的~/.bash_profile文件中
 
