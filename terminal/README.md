@@ -4,47 +4,43 @@
 
 - 外观
 
-  <img src="https://github.com/FallCSC309/assignment-2-roadtrippers/blob/master/explaination/home.png" width="400">
+  <img src="https://github.com/zuoyigehaobing/Interesting/blob/master/pics/appearance_demo.png" width="600">
 
 
 
 
 - Github 显示分支
-图
 
+  <img src="https://github.com/zuoyigehaobing/Interesting/blob/master/pics/git_branches.png" width="600">
 
 
 - 自定义快捷键
 ###
     
-    创建文件夹并进入：mcd
-图
+    创建文件夹并进入：mcd + 文件名
 
-    压缩文件夹： zipf
-图
-    
-    进入Documents: doc
-图
+    压缩文件夹： zipf + 文件名
+    
+    进入Documents: doc
     
     进入Downloads: dow
-图
     
     打开portal：portal
-图
     
     打开acorn：acorn
-图
     
     打开github：github
-图
 
 
 
 ### 设置：
 
-- step1:调整terminal的appearance
+- step1:参考的terminal appearance
+
+  <img src="https://github.com/zuoyigehaobing/Interesting/blob/master/pics/appreaance1.png" width="500">
+  <img src="https://github.com/zuoyigehaobing/Interesting/blob/master/pics/appearance2.png" width="200">
 
 
-- step2:更改 .bash_profile
-
+- step2:复制所需行到 ～/.bash_profile，如：
+  
 
