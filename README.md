@@ -31,6 +31,6 @@
   <img src="https://github.com/zuoyigehaobing/SpareTimeExploration/blob/master/misc/terminal.png" width="480">    
 
 
-- step2:copy the content of [bash_profile](https://github.com/zuoyigehaobing/Interesting/blob/master/terminal/bash_profile) and **append** to the ~/.bash_profile on your local machine.
+- step2:copy the content of [bash_profile](https://github.com/zuoyigehaobing/Interesting/blob/master/terminal/bash_profile) and **APPEND (do not overwrite!)** to the ~/.bash_profile on your local machine.
 
 - step3:researt the terminal or open a new terminal.
