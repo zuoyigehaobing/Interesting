@@ -1,43 +1,36 @@
-## Customized terminal appearance and command line short-cuts
+## Customized terminal appearance and command line short-cuts (Mac Only)
 
 ### Features:
 
-- Appearance
+- Color highlights, Git branches, colored files
 
-  <img src="https://github.com/zuoyigehaobing/SpareTimeExploration/blob/master/misc/terminal.png" width="600">
+  <img src="https://github.com/zuoyigehaobing/SpareTimeExploration/blob/master/misc/appearance.png" width="600">
 
-- Show git branches
-
-  <img src="https://github.com/zuoyigehaobing/misk/blob/master/pics/terminal/git_branches.png" width="600">
-
-
-- Customized short-cuts (some are based on UM websites)
+- Customized short-cuts
 ###
 
     navigate to Downloads: dow
 
     navigate to Documents: doc
 
-    打开portal：portal
+    Open Github：github
 
-    打开acorn：acorn
+    Create a folder and navigate inside: mcd + folder name/path
 
-    打开github：github
+    Compress a folder (Need zip): zipf + folder name
 
-    创建文件夹并进入：mcd + 文件名
-
-    压缩文件夹： zipf + 文件名
-
-    在Documents中寻找文件： where + 文件名
+    Find a file in Documents: where + file name
 
 
 
-### 设置：
 
-- step1:参考的terminal appearance
+### Setup
 
-  <img src="https://github.com/zuoyigehaobing/misk/blob/master/pics/terminal/appreaance1.png" width="480">    
-  <img src="https://github.com/zuoyigehaobing/misk/blob/master/pics/terminal/appearance2.png" width="190">
+- step1: change terminal appearance on your mac, here's a reference
+
+  <img src="https://github.com/zuoyigehaobing/SpareTimeExploration/blob/master/misc/terminal.png" width="480">    
 
 
-- step2:复制 [bash_profile](https://github.com/zuoyigehaobing/Interesting/blob/master/terminal/bash_profile)中的内容到本地电脑的~/.bash_profile文件中
+- step2:copy the content of [bash_profile](https://github.com/zuoyigehaobing/Interesting/blob/master/terminal/bash_profile) and **append** to the ~/.bash_profile on your local machine.
+
+- step3:researt a terminal.
