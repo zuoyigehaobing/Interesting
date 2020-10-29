@@ -4,7 +4,7 @@
 
 - Color highlights, Git branches, colored files
 
-  <img src="https://github.com/zuoyigehaobing/SpareTimeExploration/blob/master/misc/appearance.png" width="600">
+  <img src="https://github.com/zuoyigehaobing/SpareTimeExploration/blob/master/misc/appearance1.png" width="600">
 
 - Customized short-cuts
 ###
