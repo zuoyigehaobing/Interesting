@@ -1,10 +1,10 @@
 ## Customized terminal appearance and command line short-cuts
 
-### General:
+### Features:
 
 - Appearance
 
-  <img src="https://github.com/zuoyigehaobing/misk/blob/master/pics/terminal/appearance_demo.png" width="600">
+  <img src="./misc/terminal.png" width="600">
 
 - Show git branches
 

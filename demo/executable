@@ -1,0 +1,5 @@
+#!/bin/bash
+# Bingzhao Shan <yizhe.shan@gmail.com>
+
+# demo
+echo "hello world!";
