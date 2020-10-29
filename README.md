@@ -33,4 +33,4 @@
 
 - step2:copy the content of [bash_profile](https://github.com/zuoyigehaobing/Interesting/blob/master/terminal/bash_profile) and **append** to the ~/.bash_profile on your local machine.
 
-- step3:researt a terminal.
+- step3:researt the terminal or open a new terminal.
