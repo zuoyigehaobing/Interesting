@@ -4,7 +4,7 @@
 
 - Appearance
 
-  <img src="./misc/terminal.png" width="600">
+  <img src="https://github.com/zuoyigehaobing/SpareTimeExploration/blob/master/misc/terminal.png" width="600">
 
 - Show git branches
 
